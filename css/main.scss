@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background: #F5F5F5;
+}
+.container{
+    width: 1600px;
+    height: 4514px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import "navbar";
+@import "hero";
+@import "main-section";
+@import "footer";
+
+
+
